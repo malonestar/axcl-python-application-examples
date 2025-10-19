@@ -29,13 +29,13 @@ When a person is detected in the ROI for 5.0 seconds, a screenshot is saved and 
 You will need to open notify.py and add your discord hook in place of 'YOUR-DISCORD-HOOK-HERE'.  
 The notify.py script contains the functions for sending messages and images to discord via api hook.  
 
-<img src="https://i.imgur.com/FL21mEm.png" alt="YOLO detection trigger demo" width=50%>  
+<img src="https://i.imgur.com/FL21mEm.png" alt="YOLO detection trigger demo" width=75%>  
 
-<img src="https://i.imgur.com/dLgjvsu.png" alt="YOLO detection trigger demo" width=50%>  
+<img src="https://i.imgur.com/dLgjvsu.png" alt="YOLO detection trigger demo" width=75%>  
 
-<img src="https://i.imgur.com/5hkDqRS.png" alt="YOLO detection trigger demo" width=50%>  
+<img src="https://i.imgur.com/5hkDqRS.png" alt="YOLO detection trigger demo" width=75%>  
 
-<img src="https://i.imgur.com/Tj5dgNQ.jpeg" alt="YOLO detection trigger demo" width=50%>  
+<img src="https://i.imgur.com/Tj5dgNQ.jpeg" alt="YOLO detection trigger demo" width=75%>  
 
 
 
