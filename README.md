@@ -27,7 +27,7 @@ source ~/.bashrc
 
 Now in a new terminal window, type 'axclenv' to activate your venv from anywhere.  
 
-
+See README.md in 'yolo' directory for application specific details. 
 
 **LLM 8850 Documentation**  
 https://docs.m5stack.com/en/guide/ai_accelerator/overview  
