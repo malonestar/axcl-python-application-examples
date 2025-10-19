@@ -23,11 +23,16 @@ python axcl_yolo11x_pose.py
 python axcl_yolo11x_trigger.py  
 ```
 
-This one is fun.  Run the script, then the instructions will appear on the screen.  Press 'd' to draw an ROI on the screen.  Press 's' to save.  
+This one is fun, a sort of security camera detection system.  Run the script, then the instructions will appear on the screen.  Press 'd' to draw an ROI on the screen.  Press 's' to save.  The mouse callback function also allows for this to function on a touchscreen.  I was able to draw the ROI both on the touchscreen and with a mouse on TigerVNC.  
+
 When a person is detected in the ROI for 5.0 seconds, a screenshot is saved and sent to your personal discord server via an api hook.  
 
 You will need to open notify.py and add your discord hook in place of 'YOUR-DISCORD-HOOK-HERE'.  
 The notify.py script contains the functions for sending messages and images to discord via api hook.  
+
+[Discord Intro to Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)  
+
+You could add more or alternate integrations like email alerts, telegram messages via bot, etc.  
 
 <img src="https://i.imgur.com/FL21mEm.png" alt="YOLO detection trigger demo" width=75%>  
 
