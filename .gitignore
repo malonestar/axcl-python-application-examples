@@ -1,0 +1,70 @@
+# --- Python cruft ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Local env / tooling ---
+axcl_venv/
+axcl_env/
+.venv/
+.env
+repo_tree.txt
+
+# --- Generated outputs / caches ---
+**/output/
+**/captures/
+**/kvcache/
+**/output.wav
+**/*.jpg
+**/*.png
+
+# --- Model binaries (large / licensed elsewhere) ---
+# AXERA / LLM / VLM / TTS / YOLO weights, etc.
+**/*.axmodel
+**/*.onnx
+**/*.bin
+**/*.pth
+**/*.npy
+**/*.pt
+**/*.safetensors
+**/*.tflite
+**/*.mvn
+**/*.tar
+**/*.tar.gz
+**/*.zip
+
+# --- Specific paths in your tree that contain models ---
+# MeloTTS
+MeloTTS/decoder-ax650/
+MeloTTS/encoder-onnx/
+MeloTTS/g-en.bin
+MeloTTS/g-jp.bin
+MeloTTS/g-zh_mix_en.bin
+MeloTTS/python/models/
+MeloTTS/python/output.wav
+
+# MiniCPM-V-4
+MiniCPM-V-4/minicpm-v-4_axmodel/
+MiniCPM-V-4/utils/embed_tokens.pth
+MiniCPM-V-4/utils/resampler.axmodel
+MiniCPM-V-4/utils/siglip.axmodel
+
+# Qwen2.5-1.5B-IT
+Qwen2.5-1.5B-IT/kvcache/
+Qwen2.5-1.5B-IT/models/Qwen2.5-1.5B-Instruct-GPTQ-Int8_axmodel/
+Qwen2.5-1.5B-IT/models/Qwen2.5-1.5B-Instruct-GPTQ-Int8/*.npy
+
+# SenseVoice
+SenseVoice/am.mvn
+SenseVoice/models/sensevoice.axmodel
+
+# YOLO
+yolo/models/
+*.wav

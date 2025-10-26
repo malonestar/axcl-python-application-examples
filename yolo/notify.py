@@ -3,7 +3,7 @@ import requests
 import os
 
 # IMPORTANT: Replace this with your actual Discord webhook URL
-DISCORD_WEBHOOK_URL = "YOUR-DISORD-HOOK-HERE"
+DISCORD_WEBHOOK_URL = "YOUR_WEBHOOK_URL_HERE"
 
 def send_discord_message(message: str):
     """Sends a simple text message to the Discord webhook."""

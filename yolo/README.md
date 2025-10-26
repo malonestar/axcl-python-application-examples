@@ -1,5 +1,18 @@
 # YOLO Object Detection Applications on M5Stack LLM 8850 Accelerator  
 
+## YOLO Models
+
+Excluded:
+- `models/yolo11x.axmodel`
+- `models/yolo11x-pose.axmodel`
+- `models/yolov8s.axmodel`
+
+Place the `.axmodel` files here to run:
+```
+python axcl_yolo11x.py
+python axcl_yolo11x_pose.py
+python axcl_yolo11x_trigger.py
+```
 ## axcl_yolo11x.py  
 This script runs live inferece on a camera using yolo11x.axmodel
 
